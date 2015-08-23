@@ -46,7 +46,7 @@ colnames(mean_std_merged) <- c(features_less$V2, "Activity", "Subject")
 # Step 3 : Uses descriptive activity names to name the activities in the data set
 
 activity_labels <- read.table("activity_labels.txt")
-mean_std_merged$activity <- factor(mean_std_merged$Activity, levels=activity_labels$V1, labels=activity_labels$V2)
+mean_std_merged$Activity <- factor(mean_std_merged$Activity, levels=activity_labels$V1, labels=activity_labels$V2)
 
 write.table(as.data.frame(mean_std_merged), file="tidy.txt", sep="\t", quote=F, row.name=FALSE)
 
