@@ -1,4 +1,4 @@
-I## Readme for Getting and Cleaning Data Programming Assignemnt
+## Readme for Getting and Cleaning Data Programming Assignemnt
 
  
 ### Contents 
